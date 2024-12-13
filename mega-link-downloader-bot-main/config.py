@@ -1,7 +1,7 @@
 import os
 
 class Config(object):
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7470212671:AAEESI6DyQdLRSJ81hIg2Nh5wju2nmhj6sc") # Make a bot from https://t.me/BotFather and enter the token here
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8129468158:AAHujStmCgy-w0cVs9GEMJeqIhPDliV1blQ") # Make a bot from https://t.me/BotFather and enter the token here
     #If deploying on vps edit the above value as example := TG_BOT_TOKEN = "Your-bot-token-inside-inverted-commas."
     
     APP_ID = int(os.environ.get("APP_ID", "23561903")) # Get this value from https://my.telegram.org/apps
@@ -16,10 +16,10 @@ class Config(object):
     Mega_password = os.environ.get("Mega_password", "None") # This is not necessary! Enter your mega password only if you have a mega.nz account with pro/business features.
     #If deploying on vps edit the above value as example := Mega_password = "Your-Mega_password-inside-inverted-commas."
     
-    Bot_username = os.environ.get("Bot_username", "@Pyt113_bot") # Your bot's telegram username (must enter with '@' in the front of the username)
+    Bot_username = os.environ.get("Bot_username", "@o09_BoT") # Your bot's telegram username (must enter with '@' in the front of the username)
     #If deploying on vps edit the above value as example := Bot_username = "Your-Bot_username-inside-inverted-commas."
     
-    OWNER_ID = os.environ.get("OWNER_ID", "2062478344") # Your(owner's) telegram id
+    OWNER_ID = os.environ.get("OWNER_ID", "6742022802") # Your(owner's) telegram id
     #If deploying on vps edit the above value as example := OWNER_ID = Your-telegram id-without-inverted-commas
     
     REDIS_URI = os.environ.get("REDIS_URI", "redis-13977.c278.us-east-1-4.ec2.redns.redis-cloud.com:13977") # Get This Value from http://redislabs.com/try-free (If you don't know how to obtain the a video tutorial is available here:- https://t.me/botzupdate/5)
@@ -28,7 +28,7 @@ class Config(object):
     REDIS_PASS = os.environ.get("REDIS_PASS", "GNxCKpC1LEDnSfqORTfWMyrcYzgHsehM") # Get This Value from http://redislabs.com/try-free (If you don't know how to obtain the a video tutorial is available here:- https://t.me/botzupdate/5)
     #If deploying on vps edit the above value as example := REDIS_PASS = "Your-Redis-Password-inside-inverted-commas."
 
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split()) # Id's of the telegram users, who you want to allow for multitasking - downloading multiple links at once!
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "6742022802").split()) # Id's of the telegram users, who you want to allow for multitasking - downloading multiple links at once!
     
     #If deploying on heroku separate the ids by space. (don't put commas. Only separate each of the id's with space)
     
